@@ -29,7 +29,7 @@ function Home() {
         />
         <span className="movie-title">Latest Movies</span>
         <MovieList movies={movies} />
-
+      
         <Footer />
       </div>
     );
