@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import HeroBanner from "./HeroBanner/HeroBanner";
+import MovieList from "./MovieList";
 
 function Home() {
     const [movies, setMovies] = useState([]);
@@ -31,8 +32,9 @@ function Home() {
             ))}
           </ul>
         ) : (
-         <>/</>
+         <></>
         )}
+        <MovieList movies={movies} />
       </div>
     );
   }
