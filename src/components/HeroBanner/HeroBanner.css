@@ -1,9 +1,10 @@
 .hero-banner {
     position: relative;
-    height: 100vh;
+    height: 50vh;
     background-image: url('../images/background.jpeg');
     background-size: cover;
     background-position: center;
+    margin-bottom: 2rem;
   }
   
   .hero-banner__overlay {
