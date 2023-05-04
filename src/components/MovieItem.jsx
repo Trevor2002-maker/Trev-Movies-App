@@ -1,5 +1,6 @@
 import React from 'react';
 import "./App.css";
+
 function MovieItem({ movie }) {
   return (
     <div className="MovieItem">
