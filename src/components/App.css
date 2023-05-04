@@ -72,8 +72,7 @@
 }
 
 .details {
-  display: flex;
-  flex-direction: column;
+  flex-grow: 1;
 }
 
 .details h2 {
@@ -84,4 +83,21 @@
 .details p {
   margin: 10px 0;
   font-size: 18px;
+}
+.RatingStars {
+  display: inline-block;
+  font-size: 24px;
+  color: #f2b01e;
+}
+
+.RatingStars .star {
+  display: inline-block;
+  font-size: inherit;
+  transition: color 200ms;
+}
+
+.RatingStars .star:hover,
+.RatingStars .star.filled {
+  color: #ffdd00;
+  cursor: pointer;
 }
