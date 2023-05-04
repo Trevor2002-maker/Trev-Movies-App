@@ -26,99 +26,195 @@
       },
       {
         "id": 3,
-        "title": "The Dark Knight",
-        "director": "Christopher Nolan",
-        "year": 2008
+        "title": "New Gods: Nezha Rborn",
+        "director": "Zhao Ji",
+        "starring":["Yang TianXang", "Zhang He", "Xuang Xiaoming"],
+        "genre": "Anime",
+        "maturity_rating":"13+",
+        "year": 2021,
+        "duration":"1hr 50mins",
+        "description": "While living as an ordinary deliveryman and motor racing fan, Nezha encounters old nemeses and must rediscover his powers as a Chinese deity to protect his loved ones",
+        "image":"https://upload.wikimedia.org/wikipedia/en/7/7e/New_Gods_Nezha_Reborn_poster.jpg"
       },
       {
         "id": 4,
-        "title": "The Godfather: Part II",
-        "director": "Francis Ford Coppola",
-        "year": 1974
+        "title": "Imagine That",
+        "director": "Karey Kirkpatrick",
+        "year": 2009,
+        "description":"Evan Danielson, a successful financial advisor, faces turmoil due to lack of confidence. However, he finds a solution to all his problems in the imaginary world weaved by his daughter.",
+        "genre":"Children And Family",
+        "duration":"1hr 47mins",
+        "image":"https://m.media-amazon.com/images/M/MV5BMjIwMjgwMjg4M15BMl5BanBnXkFtZTcwNTU2ODkzMg@@._V1_.jpg",
+        "maturity_rating":"7+",
+        "starring":["Eddie Murphy", "Yara Shahidi"]
       },
       {
         "id": 5,
-        "title": "12 Angry Men",
-        "director": "Sidney Lumet",
-        "year": 1957
+        "title": "Spenser Confidential",
+        "director": "Peter Berg",
+        "year": 2020,
+        "description":"To unravel a twisted murder conspiracy, a former police detective returns to Boston's criminal underworld.",
+        "genre":"Comedy",
+        "duration":"1hr 51mins",
+        "image":"https://cdn.shopify.com/s/files/1/1183/1920/articles/B4D1F5D8-0563-4871-A73C-626FFB689AA3_1024x1024.jpeg",
+        "maturity_rating":"18+",
+        "starring":["Mark Wahlberg","Winston Duke"]
       },
       {
         "id": 6,
-        "title": "Schindler's List",
-        "director": "Steven Spielberg",
-        "year": 1993
+        "title": "Black And Blue",
+        "director": "Deon Taylor",
+        "year": 2019,
+        "description":"Witnessing her colleagues killing a drug dealer lands police officer Alicia West into trouble. Falsely accused of the crime, she now has to fight both the corrupt police and evil gangsters.",
+        "genre":"Drama",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       },
       {
         "id": 7,
-        "title": "The Lord of the Rings: The Return of the King",
-        "director": "Peter Jackson",
-        "year": 2003
+        "title": "",
+        "director": "",
+        "year": 1974,
+        "description":"",
+        "genre":"",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       },
       {
         "id": 8,
-        "title": "Pulp Fiction",
-        "director": "Quentin Tarantino",
-        "year": 1994
+        "title": "",
+        "director": "",
+        "year": 1974,
+        "description":"",
+        "genre":"",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       },
       {
         "id": 9,
-        "title": "The Good, the Bad and the Ugly",
-        "director": "Sergio Leone",
-        "year": 1966
+        "title": "",
+        "director": "",
+        "year": 1974,
+        "description":"",
+        "genre":"",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       },
       {
         "id": 10,
-        "title": "Fight Club",
-        "director": "David Fincher",
-        "year": 1999
+        "title": "",
+        "director": "",
+        "year": 1974,
+        "description":"",
+        "genre":"",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       },
       {
         "id": 11,
-        "title": "Forrest Gump",
-        "director": "Robert Zemeckis",
-        "year": 1994
+        "title": "",
+        "director": "",
+        "year": 1974,
+        "description":"",
+        "genre":"",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       },
       {
         "id": 12,
-        "title": "Inception",
-        "director": "Christopher Nolan",
-        "year": 2010
+        "title": "",
+        "director": "",
+        "year": 1974,
+        "description":"",
+        "genre":"",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       },
       {
         "id": 13,
-        "title": "The Lord of the Rings: The Fellowship of the Ring",
-        "director": "Peter Jackson",
-        "year": 2001
+        "title": "",
+        "director": "",
+        "year": 1974,
+        "description":"",
+        "genre":"",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       },
       {
         "id": 14,
-        "title": "The Lord of the Rings: The Two Towers",
-        "director": "Peter Jackson",
-        "year": 2002
+        "title": "",
+        "director": "",
+        "year": 1974,
+        "description":"",
+        "genre":"",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       },
       {
         "id": 15,
-        "title": "Star Wars: Episode V - The Empire Strikes Back",
-        "director": "Irvin Kershner",
-        "year": 1980
+        "title": "",
+        "director": "",
+        "year": 1974,
+        "description":"",
+        "genre":"",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       },
       {
         "id": 16,
-        "title": "The Matrix",
-        "director": "The Wachowski Brothers",
-        "year": 1999
+        "title": "",
+        "director": "",
+        "year": 1974,
+        "description":"",
+        "genre":"",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       },
       {
         "id": 17,
-        "title": "Goodfellas",
-        "director": "Martin Scorsese",
-        "year": 1990
+        "title": "",
+        "director": "",
+        "year": 1974,
+        "description":"",
+        "genre":"",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       },
       {
         "id": 18,
-        "title": "One Flew Over the Cuckoo's Nest",
-        "director": "Milos Forman",
-        "year": 1975
+        "title": "",
+        "director": "",
+        "year": 1974,
+        "description":"",
+        "genre":"",
+        "duration":"",
+        "image":"",
+        "maturity_rating":"",
+        "starring":[]
       }
     ]
 }
