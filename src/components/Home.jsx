@@ -2,10 +2,11 @@ import React, {useState, useEffect} from "react";
 import HeroBanner from "./HeroBanner/HeroBanner";
 import MovieList from "./MovieList";
 import Footer from "./Footer";
+
 function Home() {
     const [movies, setMovies] = useState([]);
-    const [searchResults, setSearchResults] = useState([]);
-  
+    
+
     useEffect(() => {
       fetch('http://localhost:3001/movie')
         .then((response) => response.json())
@@ -13,30 +14,22 @@ function Home() {
         .catch((error) => console.log(error));
     }, []);
   
-    const handleSearch = (searchTerm) => {
-      const results = movies.filter((movie) =>
-        movie.title.toLowerCase().includes(searchTerm.toLowerCase())
+    function handleSearch(event) {
+      const query = event.target.value.toLowerCase();
+      const filteredMovies = movies.filter(movie =>
+        movie.title.toLowerCase().includes(query) || movie.genre.toLowerCase().includes(query)
       );
-      setSearchResults(results);
-    };
+      setMovies(filteredMovies);
+    }
   
     return (
       <div className="Home">
         <HeroBanner
-          onSearch={handleSearch}
+          handleSearch={handleSearch} 
         />
-        {searchResults.length > 0 ? (
-          <ul>
-            {searchResults.map((movie) => (
-              <li key={movie.id}>{movie.title}</li>
-            ))}
-          </ul>
-        ) : (
-         <></>
-        )}
-
         <span className="movie-title">Latest Movies</span>
         <MovieList movies={movies} />
+
         <Footer />
       </div>
     );
