@@ -1,6 +1,6 @@
 .hero-banner {
     position: relative;
-    height: 50vh;
+    height: 100vh;
     background-image: url('../images/background.jpeg');
     background-size: cover;
     background-position: center;
