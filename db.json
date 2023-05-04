@@ -63,7 +63,7 @@
         "duration":"1hr 51mins",
         "image":"https://cdn.shopify.com/s/files/1/1183/1920/articles/B4D1F5D8-0563-4871-A73C-626FFB689AA3_1024x1024.jpeg",
         "maturity_rating":"18+",
-        "starring":["Mark Wahlberg","Winston Duke"]
+        "starring":["Mark Wahlberg", "Winston Duke"]
       },
       {
         "id": 6,
@@ -80,45 +80,44 @@
       },
       {
         "id":7,
-        "title":"",
-        "director":"",
+        "title":"F9: The Fast Saga",
+        "director":"Justin Lij",
         "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":"",
-        "starring":[]
+        "rating":"3.0",
+        "description":"Dom Toretto is living the quiet life off the grid with Letty and his son, but they know that danger always lurks just over the peaceful horizon. This time, that threat forces Dom to confront the sins of his past to save those he loves most. His crew soon comes together to stop a world-shattering plot by the most skilled assassin and high-performance driver they've ever encountered -- Dom's forsaken brother.",
+        "image":"https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg",
+        "maturity_rating":"16+",
+        "genre":"Thriller",
+        "duration":"2hrs 15mins",
+        "starring":["Vin Diesel", "Tyrese Gibson", "Chris Ludacris", "John Cena", "Jordana Brewster", "Jason Momoa"]
       },
       {
-        "id":7,
-        "title":"",
-        "director":"",
+        "id":8,
+        "title":"Sweet Girl",
+        "director":"Brian ANdre",
         "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":"",
-        "starring":[]
+        "rating":"4.0",
+        "description":"A man vows to bring justice to those responsible for his wife's death while protecting the only family he has left -- his daughter.",
+        "image":"https://m.media-amazon.com/images/M/MV5BOGIzOTZiZjItNTMyYS00ODcyLWE2ZDUtYWNjZDNmNTUxYjVkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+        "maturity_rating":"16+",
+        "genre":"Drama",
+        "duration":"1hr 50mins",
+        "starring":["Jason Momoa","Isabella Merced"]
       },
       {
-        "id":7,
-        "title":"",
-        "director":"",
-        "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":"",
-        "starring":[]
+        "id":9,
+        "title":"AKA",
+        "director":"Morgan Dalbert",
+        "year": 2023,
+        "rating":"4.5",
+        "description":"A steely special ops agent finds his morality put to the test when he infiltrates a crime syndicate and unexpectedly bonds with the boss's young son.",
+        "image":"https://m.media-amazon.com/images/M/MV5BMTcyM2IzZjktYmFkOS00MWMzLWE2ZDAtNGIzMjZlOWU2MmY0XkEyXkFqcGdeQXVyMTUxNTk0NTU4._V1_.jpg",
+        "maturity_rating":"18+",
+        "genre":"Crime",
+        "duration":"1hr 58mins"
       },
       {
-        "id":7,
+        "id":10,
         "title":"",
         "director":"",
         "year": 2021,
@@ -127,11 +126,10 @@
         "image":"",
         "maturity_rating":"",
         "genre":"",
-        "duration":"",
-        "starring":[]
+        "duration":""
       },
       {
-        "id":7,
+        "id":11,
         "title":"",
         "director":"",
         "year": 2021,
@@ -140,11 +138,10 @@
         "image":"",
         "maturity_rating":"",
         "genre":"",
-        "duration":"",
-        "starring":[]
+        "duration":""
       },
       {
-        "id":7,
+        "id":12,
         "title":"",
         "director":"",
         "year": 2021,
@@ -153,11 +150,10 @@
         "image":"",
         "maturity_rating":"",
         "genre":"",
-        "duration":"",
-        "starring":[]
+        "duration":""
       },
       {
-        "id":7,
+        "id":13,
         "title":"",
         "director":"",
         "year": 2021,
@@ -166,99 +162,7 @@
         "image":"",
         "maturity_rating":"",
         "genre":"",
-        "duration":"",
-        "starring":[]
-      },
-      {
-        "id":7,
-        "title":"",
-        "director":"",
-        "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":"",
-        "starring":[]
-      },
-      {
-        "id":7,
-        "title":"",
-        "director":"",
-        "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":"",
-        "starring":[]
-      },
-      {
-        "id":7,
-        "title":"",
-        "director":"",
-        "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":"",
-        "starring":[]
-      },
-      {
-        "id":7,
-        "title":"",
-        "director":"",
-        "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":"",
-        "starring":[]
-      },
-      {
-        "id":7,
-        "title":"",
-        "director":"",
-        "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":"",
-        "starring":[]
-      },
-      {
-        "id":7,
-        "title":"",
-        "director":"",
-        "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":"",
-        "starring":[]
-      },
-      {
-        "id":7,
-        "title":"",
-        "director":"",
-        "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":"",
-        "starring":[]
+        "duration":""
       }
     ]
 }
