@@ -101,3 +101,14 @@
   color: #ffdd00;
   cursor: pointer;
 }
+.footer{
+  background: rgb(2,0,36);
+  color:#f7f7f7;
+  padding: 20px 0;
+  font-size: 14px;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
