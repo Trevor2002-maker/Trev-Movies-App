@@ -2,21 +2,16 @@
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(162,5,198,1) 40%, rgba(0,212,255,1) 100%); 
 }
-
-.header{
-  color: white;
-  display: flex;
-  padding: 20px;
-  align-items: center;
-}
-.header > img {
-  object-fit: cover;
-  height: 100px;
-  width: 500px;
-}
 .navbar{
   position: relative;
-  color: white;
   height: 68px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+  text-decoration: none;
+}
+.navbar > img {
+  object-fit: contain;
+  height: 100px;
 }

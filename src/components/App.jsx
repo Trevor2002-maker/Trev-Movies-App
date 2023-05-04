@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from "./Header";
 import './App.css';
 import { Routes, Route} from "react-router-dom";
 import Nav from './Nav';
@@ -10,7 +9,6 @@ import Login from './Login';
 function App() {
   return (
     <div className="App">
-      <Header />
       <Nav />
       <Routes>
         <Route  path='/' element={<Home />}/>
