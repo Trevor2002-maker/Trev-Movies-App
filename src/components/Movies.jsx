@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import MovieItem from './MovieItem';
+import Footer from './Footer';
 
 function Movies() {
   const [movies, setMovies] = useState([]);
@@ -37,6 +38,7 @@ function Movies() {
           Next
         </button>
       </div>
+      <Footer />
   </div>
   );
 }

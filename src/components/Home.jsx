@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from "react";
 import HeroBanner from "./HeroBanner/HeroBanner";
 import MovieList from "./MovieList";
-
+import Footer from "./Footer";
 function Home() {
     const [movies, setMovies] = useState([]);
     const [searchResults, setSearchResults] = useState([]);
@@ -37,7 +37,7 @@ function Home() {
 
         <span className="movie-title">Latest Movies</span>
         <MovieList movies={movies} />
-      
+        <Footer />
       </div>
     );
   }
