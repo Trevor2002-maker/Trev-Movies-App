@@ -112,3 +112,40 @@
   margin: 0 auto;
   text-align: center;
 }
+ .movie-form {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  margin: 0 auto;
+ }
+
+.movie-form label{
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.movie-form input{
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 5px;
+}
+
+.movie-form button {
+  margin-top: 10px;
+  padding: 8px;
+  font-size: 18px;
+  background-color: #0077cc;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+  button:hover {
+    background-color: #005fa3;
+  }
+
+  button:active {
+    background-color: #004d8c;
+  }

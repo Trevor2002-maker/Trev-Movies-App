@@ -1,168 +1,213 @@
 {
-    "movie": [
-      {
-        "id": 1,
-        "title": "Red Notice",
-        "director": "Rawson Marshall Thurber",
-        "starring": ["Dwayne Johnson", "Ryan Reynolds", "Gal Gadot","Ritu Arya", "Chris Diamantopoulos"],
-        "year": 2022,
-        "maturity_rating": "13+",
-        "genre": "Crime",
-        "rating":"4.0",
-        "duration": "1hr 58mins",
-        "description": "In the world of international crime, an Interpol agent attempts to hunt down and capture the world's most wanted art thief.",
-        "image": "https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
-      },
-      {
-        "id": 2,
-        "title": "Uncharted",
-        "director": "Ruben Fleischer",
-        "starring":["Tom Holland", "Mark Wahlberg", "Antonio Banderas", "Sophia Ali", "Tati Gabrielle", "Pingi Moli"],
-        "year": 2022,
-        "maturity_rating":"16+",
-        "genre":"Action",
-        "rating":"4.1",
-        "duration":"1hr 56mins",
-        "description":"Victor Sullivan recruits Nathan Drake to help him find the lost fortune of Ferdinand Magellan. However, they face competition from Santiago Moncada, who believes that the treasure belongs to him.",
-        "image":"https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Uncharted_Official_Poster.jpg/220px-Uncharted_Official_Poster.jpg"
-      },
-      {
-        "id": 3,
-        "title": "New Gods: Nezha Rborn",
-        "director": "Zhao Ji",
-        "starring":["Yang TianXang", "Zhang He", "Xuang Xiaoming"],
-        "genre": "Anime",
-        "rating":"4.3",
-        "maturity_rating":"13+",
-        "year": 2021,
-        "duration":"1hr 50mins",
-        "description": "While living as an ordinary deliveryman and motor racing fan, Nezha encounters old nemeses and must rediscover his powers as a Chinese deity to protect his loved ones",
-        "image":"https://upload.wikimedia.org/wikipedia/en/7/7e/New_Gods_Nezha_Reborn_poster.jpg"
-      },
-      {
-        "id": 4,
-        "title": "Imagine That",
-        "director": "Karey Kirkpatrick",
-        "year": 2009,
-        "rating":"3.0",
-        "description":"Evan Danielson, a successful financial advisor, faces turmoil due to lack of confidence. However, he finds a solution to all his problems in the imaginary world weaved by his daughter.",
-        "genre":"Children And Family",
-        "duration":"1hr 47mins",
-        "image":"https://m.media-amazon.com/images/M/MV5BMjIwMjgwMjg4M15BMl5BanBnXkFtZTcwNTU2ODkzMg@@._V1_.jpg",
-        "maturity_rating":"7+",
-        "starring":["Eddie Murphy", "Yara Shahidi"]
-      },
-      {
-        "id": 5,
-        "title": "Spenser Confidential",
-        "director": "Peter Berg",
-        "year": 2020,
-        "rating":"4.0",
-        "description":"To unravel a twisted murder conspiracy, a former police detective returns to Boston's criminal underworld.",
-        "genre":"Comedy",
-        "duration":"1hr 51mins",
-        "image":"https://cdn.shopify.com/s/files/1/1183/1920/articles/B4D1F5D8-0563-4871-A73C-626FFB689AA3_1024x1024.jpeg",
-        "maturity_rating":"18+",
-        "starring":["Mark Wahlberg", "Winston Duke"]
-      },
-      {
-        "id": 6,
-        "title": "Black And Blue",
-        "director": "Deon Taylor",
-        "year": 2019,
-        "rating":"4.3",
-        "description":"Witnessing her colleagues killing a drug dealer lands police officer Alicia West into trouble. Falsely accused of the crime, she now has to fight both the corrupt police and evil gangsters.",
-        "genre":"Drama",
-        "duration":"1hr 48mins",
-        "image":"https://images.moviesanywhere.com/ee6265b51cda3c19ae182ae4be0c551f/79e8b5b5-3560-4253-a389-d1d7676c66fa.jpg",
-        "maturity_rating":"18+",
-        "starring":["Tyrese Gibson", "Naome Harris"]
-      },
-      {
-        "id":7,
-        "title":"F9: The Fast Saga",
-        "director":"Justin Lij",
-        "year": 2021,
-        "rating":"3.0",
-        "description":"Dom Toretto is living the quiet life off the grid with Letty and his son, but they know that danger always lurks just over the peaceful horizon. This time, that threat forces Dom to confront the sins of his past to save those he loves most. His crew soon comes together to stop a world-shattering plot by the most skilled assassin and high-performance driver they've ever encountered -- Dom's forsaken brother.",
-        "image":"https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg",
-        "maturity_rating":"16+",
-        "genre":"Thriller",
-        "duration":"2hrs 15mins",
-        "starring":["Vin Diesel", "Tyrese Gibson", "Chris Ludacris", "John Cena", "Jordana Brewster", "Jason Momoa"]
-      },
-      {
-        "id":8,
-        "title":"Sweet Girl",
-        "director":"Brian ANdre",
-        "year": 2021,
-        "rating":"4.0",
-        "description":"A man vows to bring justice to those responsible for his wife's death while protecting the only family he has left -- his daughter.",
-        "image":"https://m.media-amazon.com/images/M/MV5BOGIzOTZiZjItNTMyYS00ODcyLWE2ZDUtYWNjZDNmNTUxYjVkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
-        "maturity_rating":"16+",
-        "genre":"Drama",
-        "duration":"1hr 50mins",
-        "starring":["Jason Momoa","Isabella Merced"]
-      },
-      {
-        "id":9,
-        "title":"AKA",
-        "director":"Morgan Dalbert",
-        "year": 2023,
-        "rating":"4.5",
-        "description":"A steely special ops agent finds his morality put to the test when he infiltrates a crime syndicate and unexpectedly bonds with the boss's young son.",
-        "image":"https://m.media-amazon.com/images/M/MV5BMTcyM2IzZjktYmFkOS00MWMzLWE2ZDAtNGIzMjZlOWU2MmY0XkEyXkFqcGdeQXVyMTUxNTk0NTU4._V1_.jpg",
-        "maturity_rating":"18+",
-        "genre":"Crime",
-        "duration":"1hr 58mins"
-      },
-      {
-        "id":10,
-        "title":"",
-        "director":"",
-        "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":""
-      },
-      {
-        "id":11,
-        "title":"",
-        "director":"",
-        "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":""
-      },
-      {
-        "id":12,
-        "title":"",
-        "director":"",
-        "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":""
-      },
-      {
-        "id":13,
-        "title":"",
-        "director":"",
-        "year": 2021,
-        "rating":"",
-        "description":"",
-        "image":"",
-        "maturity_rating":"",
-        "genre":"",
-        "duration":""
-      }
-    ]
+  "movie": [
+    {
+      "id": 1,
+      "title": "Red Notice",
+      "director": "Rawson Marshall Thurber",
+      "starring": [
+        "Dwayne Johnson",
+        "Ryan Reynolds",
+        "Gal Gadot",
+        "Ritu Arya",
+        "Chris Diamantopoulos"
+      ],
+      "year": 2022,
+      "maturity_rating": "13+",
+      "genre": "Crime",
+      "rating": "4.0",
+      "duration": "1hr 58mins",
+      "description": "In the world of international crime, an Interpol agent attempts to hunt down and capture the world's most wanted art thief.",
+      "image": "https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Uncharted",
+      "director": "Ruben Fleischer",
+      "starring": [
+        "Tom Holland",
+        "Mark Wahlberg",
+        "Antonio Banderas",
+        "Sophia Ali",
+        "Tati Gabrielle",
+        "Pingi Moli"
+      ],
+      "year": 2022,
+      "maturity_rating": "16+",
+      "genre": "Action",
+      "rating": "4.1",
+      "duration": "1hr 56mins",
+      "description": "Victor Sullivan recruits Nathan Drake to help him find the lost fortune of Ferdinand Magellan. However, they face competition from Santiago Moncada, who believes that the treasure belongs to him.",
+      "image": "https://upload.wikimedia.org/wikipedia/en/thumb/d/d4/Uncharted_Official_Poster.jpg/220px-Uncharted_Official_Poster.jpg"
+    },
+    {
+      "id": 3,
+      "title": "New Gods: Nezha Rborn",
+      "director": "Zhao Ji",
+      "starring": [
+        "Yang TianXang",
+        "Zhang He",
+        "Xuang Xiaoming"
+      ],
+      "genre": "Anime",
+      "rating": "4.3",
+      "maturity_rating": "13+",
+      "year": 2021,
+      "duration": "1hr 50mins",
+      "description": "While living as an ordinary deliveryman and motor racing fan, Nezha encounters old nemeses and must rediscover his powers as a Chinese deity to protect his loved ones",
+      "image": "https://upload.wikimedia.org/wikipedia/en/7/7e/New_Gods_Nezha_Reborn_poster.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Imagine That",
+      "director": "Karey Kirkpatrick",
+      "year": 2009,
+      "rating": "3.0",
+      "description": "Evan Danielson, a successful financial advisor, faces turmoil due to lack of confidence. However, he finds a solution to all his problems in the imaginary world weaved by his daughter.",
+      "genre": "Children And Family",
+      "duration": "1hr 47mins",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjIwMjgwMjg4M15BMl5BanBnXkFtZTcwNTU2ODkzMg@@._V1_.jpg",
+      "maturity_rating": "7+",
+      "starring": [
+        "Eddie Murphy",
+        "Yara Shahidi"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Spenser Confidential",
+      "director": "Peter Berg",
+      "year": 2020,
+      "rating": "4.0",
+      "description": "To unravel a twisted murder conspiracy, a former police detective returns to Boston's criminal underworld.",
+      "genre": "Comedy",
+      "duration": "1hr 51mins",
+      "image": "https://cdn.shopify.com/s/files/1/1183/1920/articles/B4D1F5D8-0563-4871-A73C-626FFB689AA3_1024x1024.jpeg",
+      "maturity_rating": "18+",
+      "starring": [
+        "Mark Wahlberg",
+        "Winston Duke"
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Black And Blue",
+      "director": "Deon Taylor",
+      "year": 2019,
+      "rating": "4.3",
+      "description": "Witnessing her colleagues killing a drug dealer lands police officer Alicia West into trouble. Falsely accused of the crime, she now has to fight both the corrupt police and evil gangsters.",
+      "genre": "Drama",
+      "duration": "1hr 48mins",
+      "image": "https://images.moviesanywhere.com/ee6265b51cda3c19ae182ae4be0c551f/79e8b5b5-3560-4253-a389-d1d7676c66fa.jpg",
+      "maturity_rating": "18+",
+      "starring": [
+        "Tyrese Gibson",
+        "Naome Harris"
+      ]
+    },
+    {
+      "id": 7,
+      "title": "F9: The Fast Saga",
+      "director": "Justin Lij",
+      "year": 2021,
+      "rating": "3.0",
+      "description": "Dom Toretto is living the quiet life off the grid with Letty and his son, but they know that danger always lurks just over the peaceful horizon. This time, that threat forces Dom to confront the sins of his past to save those he loves most. His crew soon comes together to stop a world-shattering plot by the most skilled assassin and high-performance driver they've ever encountered -- Dom's forsaken brother.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMjI0NmFkYzEtNzU2YS00NTg5LWIwYmMtNmQ1MTU0OGJjOTMxXkEyXkFqcGdeQXVyMjMxOTE0ODA@._V1_.jpg",
+      "maturity_rating": "16+",
+      "genre": "Thriller",
+      "duration": "2hrs 15mins",
+      "starring": [
+        "Vin Diesel",
+        "Tyrese Gibson",
+        "Chris Ludacris",
+        "John Cena",
+        "Jordana Brewster",
+        "Jason Momoa"
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Sweet Girl",
+      "director": "Brian ANdre",
+      "year": 2021,
+      "rating": "4.0",
+      "description": "A man vows to bring justice to those responsible for his wife's death while protecting the only family he has left -- his daughter.",
+      "image": "https://m.media-amazon.com/images/M/MV5BOGIzOTZiZjItNTMyYS00ODcyLWE2ZDUtYWNjZDNmNTUxYjVkXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_.jpg",
+      "maturity_rating": "16+",
+      "genre": "Drama",
+      "duration": "1hr 50mins",
+      "starring": [
+        "Jason Momoa",
+        "Isabella Merced"
+      ]
+    },
+    {
+      "id": 9,
+      "title": "AKA",
+      "director": "Morgan Dalbert",
+      "year": 2023,
+      "rating": "4.5",
+      "description": "A steely special ops agent finds his morality put to the test when he infiltrates a crime syndicate and unexpectedly bonds with the boss's young son.",
+      "image": "https://m.media-amazon.com/images/M/MV5BMTcyM2IzZjktYmFkOS00MWMzLWE2ZDAtNGIzMjZlOWU2MmY0XkEyXkFqcGdeQXVyMTUxNTk0NTU4._V1_.jpg",
+      "maturity_rating": "18+",
+      "genre": "Crime",
+      "duration": "1hr 58mins"
+    },
+    {
+      "id": 10,
+      "title": "",
+      "director": "",
+      "year": 2021,
+      "rating": "",
+      "description": "",
+      "image": "",
+      "maturity_rating": "",
+      "genre": "",
+      "duration": ""
+    },
+    {
+      "id": 11,
+      "title": "",
+      "director": "",
+      "year": 2021,
+      "rating": "",
+      "description": "",
+      "image": "",
+      "maturity_rating": "",
+      "genre": "",
+      "duration": ""
+    },
+    {
+      "id": 12,
+      "title": "",
+      "director": "",
+      "year": 2021,
+      "rating": "",
+      "description": "",
+      "image": "",
+      "maturity_rating": "",
+      "genre": "",
+      "duration": ""
+    },
+    {
+      "id": 13,
+      "title": "",
+      "director": "",
+      "year": 2021,
+      "rating": "",
+      "description": "",
+      "image": "",
+      "maturity_rating": "",
+      "genre": "",
+      "duration": ""
+    },
+    {
+      "title": "Triple Frontier",
+      "director": "J.C Chandor",
+      "year": "2019",
+      "image": "https://m.media-amazon.com/images/M/MV5BODU4MzM2MDAxMl5BMl5BanBnXkFtZTgwNDEzNjM0NzM@._V1_.jpg",
+      "genre": "Action",
+      "rating": "5",
+      "id": 14
+    }
+  ]
 }
