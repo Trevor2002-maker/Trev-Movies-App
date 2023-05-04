@@ -7,7 +7,7 @@ function Movies() {
   const moviesPerPage = 10;
 
   useEffect(() => {
-    fetch('http://localhost:3000/movie')
+    fetch('https://localhost:3000/movie')
       .then((response) => response.json())
       .then((data) => setMovies(data))
       .catch((error) => console.log(error));
