@@ -5,7 +5,7 @@ import Footer from "./Footer";
 
 function Home() {
     const [movies, setMovies] = useState([]);
-    
+  
 
     useEffect(() => {
       fetch('http://localhost:3001/movie')
@@ -30,6 +30,7 @@ function Home() {
         />
         <span className="movie-title">Latest Movies</span>
         <MovieList movies={movies} />
+
         <Footer />
       </div>
     );
