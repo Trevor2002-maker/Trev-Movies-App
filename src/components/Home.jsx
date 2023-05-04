@@ -34,7 +34,10 @@ function Home() {
         ) : (
          <></>
         )}
+
+        <span className="movie-title">Latest Movies</span>
         <MovieList movies={movies} />
+      
       </div>
     );
   }

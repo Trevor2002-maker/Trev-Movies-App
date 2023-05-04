@@ -1,3 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;800&display=swap");
+*{
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+  outline: 0;
+}
+
 .navbar{
   position: relative;
   height: 68px;
@@ -7,11 +16,16 @@
   padding: 10px 0;
   text-decoration: none;
   background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(162,5,198,1) 40%, rgba(0,212,255,1) 100%); 
 }
 .navbar > img {
   object-fit: contain;
   height: 100px;
+}
+.Home{
+  color: aliceblue;
+  text-align: center;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(162,5,198,1) 40%, rgba(0,212,255,1) 100%); 
 }
 .MovieList {
   display: flex;
@@ -40,8 +54,9 @@
   text-align: center;
 }
 .movie-title{
-  font-size: 24px;
-  color: #000;
+  font-size: 40px;
+  text-align: center;
   margin-bottom: 20px;
   font-weight: normal;
+
 }
