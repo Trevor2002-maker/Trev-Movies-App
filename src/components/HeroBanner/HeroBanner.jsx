@@ -1,33 +1,20 @@
-import React ,{useState } from "react";
 import "../HeroBanner/HeroBanner.css";
-import { useNavigate } from "react-router-dom";
-import Img from "../images/background.jpeg";
+import React from 'react';
 
-function HeroBanner(){
-    const [query, setQuery] = useState("");
-    const navigate = useNavigate();
-
-    const searchQueryHandler = (event)=>{
-        if(event.key === 'Enter' && query.length > 0){
-            navigate(`/search/${query}`)
-        }
-    }
-    return(
-        <div className="heroBanner">
-         <div className="backdrop-img">
-                <Img />
-                </div>
-                <div className="wrapper">
-                    <div className="heroBannerContext">
-                        <span className="title">Welcome</span>
-                        <span className="subTitle">The ultimate place for movie Lovers. Explore Now..</span>
-                        <div className="searchInput">
-                        <input type="text" placeholder='Search for movie or TV show..' onChange={(e)=> setQuery(e.target.value)} onKeyUp={searchQueryHandler}/>
-                        <button>Search</button>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    )
+function HeroBanner() {
+  return (
+    <div className="hero-banner">
+      <div className="hero-banner__overlay"></div>
+      <div className="hero-banner__content">
+        <h1 className="hero-banner__title">Welcome to My Movie App</h1>
+        <p className="hero-banner__subtitle">Find your favorite movies and TV shows</p>
+        <form className="hero-banner__search-form">
+          <input type="text" placeholder="Search movies..." />
+          <button type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  );
 }
+
 export default HeroBanner;
