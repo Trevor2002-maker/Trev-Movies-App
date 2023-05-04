@@ -1,6 +1,6 @@
 import React from "react";
-import "./Header.css";
-import logo from "../images/trevmovies.png";
+import "./App.css"
+import logo from "./images/trevmovies.png";
 import {FiHome} from "react-icons/fi";
 import {MdFlashOn} from"react-icons/md";
 import {MdLiveTv} from"react-icons/md";
