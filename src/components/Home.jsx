@@ -21,7 +21,8 @@ function Home() {
       );
       setMovies(filteredMovies);
     }
-  
+
+    
     return (
       <div className="Home">
         <HeroBanner
@@ -29,7 +30,6 @@ function Home() {
         />
         <span className="movie-title">Latest Movies</span>
         <MovieList movies={movies} />
-      
         <Footer />
       </div>
     );

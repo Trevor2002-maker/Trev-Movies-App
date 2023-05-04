@@ -22,7 +22,7 @@ function Movies() {
   return (
     <div className='Movies'>
     {currentMovies.map((movie)=>(
-      <MovieItem key={movie.id} movie={movie}/>
+      <MovieItem key={movie.id} movie={movie} />
     ))}
     <div className="Pagination">
         <button
