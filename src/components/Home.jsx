@@ -9,7 +9,7 @@ function Home() {
   
 
     useEffect(() => {
-      fetch('http://localhost:3001/movie')
+      fetch('http://localhost:3000/movie')
         .then((response) => response.json())
         .then((data) => setMovies(data))
         .catch((error) => console.log(error));

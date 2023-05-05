@@ -3,6 +3,7 @@ import "./App.css";
 import RatingStars from './RatingStars';
 
 function MovieItem({ movie }) {
+
   return (
     <div className="MovieItem">
       <div className="movie-img">
