@@ -1,8 +1,8 @@
-import React from 'react';
+import React  from 'react';
 import "./App.css";
 import RatingStars from './RatingStars';
 
-function MovieItem({ movie }) {
+function MovieItem({ movie, onDeleteMovie }) {
 
   return (
     <div className="MovieItem">
@@ -20,8 +20,10 @@ function MovieItem({ movie }) {
         <p>Age: {movie.maturity_rating}</p>
         <p>Duration: {movie.duration}</p>
         <p>Description: {movie.description}</p>
+        <button onClick={()=> onDeleteMovie(movie.id)}>Delete</button>
       </div>
     </div>
+    
   );
 }
 

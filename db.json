@@ -1,25 +1,6 @@
 {
   "movie": [
     {
-      "id": 1,
-      "title": "Red Notice",
-      "director": "Rawson Marshall Thurber",
-      "starring": [
-        "Dwayne Johnson",
-        "Ryan Reynolds",
-        "Gal Gadot",
-        "Ritu Arya",
-        "Chris Diamantopoulos"
-      ],
-      "year": 2022,
-      "maturity_rating": "13+",
-      "genre": "Crime",
-      "rating": "4.0",
-      "duration": "1hr 58mins",
-      "description": "In the world of international crime, an Interpol agent attempts to hunt down and capture the world's most wanted art thief.",
-      "image": "https://m.media-amazon.com/images/M/MV5BZmRjODgyMzEtMzIxYS00OWY2LTk4YjUtMGMzZjMzMTZiN2Q0XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_FMjpg_UX1000_.jpg"
-    },
-    {
       "id": 2,
       "title": "Uncharted",
       "director": "Ruben Fleischer",

@@ -9,6 +9,12 @@ function Movies() {
   const[currentPage, setCurrentPage] = useState(1);
   const moviesPerPage = 10;
 
+
+  const handleDeleteMovie = (id) => {
+    fetch(`http://localhost:3000/movie/${id}`, { method: 'DELETE' })
+      .then(() => setMovies(movies.filter(movie => movie.id !== id)))
+      .catch(error => console.error(error));
+  };
   useEffect(() => {
     fetch('http://localhost:3000/movie')
       .then((response) => response.json())
@@ -19,6 +25,7 @@ function Movies() {
   const indexOfLastMovie = currentPage * moviesPerPage;
   const indexOfFirstMovie = indexOfLastMovie - moviesPerPage;
   const currentMovies = movies.slice(indexOfFirstMovie, indexOfLastMovie);
+
   if(!movies){
     return<div>Loading...</div>;
   }
@@ -26,7 +33,7 @@ function Movies() {
   return (
     <div className='Movies'>
     {currentMovies.map((movie)=>(
-      <MovieItem key={movie.id} movie={movie} />
+      <MovieItem key={movie.id} movie={movie} onDeleteMovie={handleDeleteMovie}/>
     ))}
     <div className="Pagination">
         <button
