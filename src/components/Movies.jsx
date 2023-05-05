@@ -22,6 +22,23 @@ function Movies() {
       .catch((error) => console.log(error));
   }, [id]);
 
+    const handleUpdate = (updatedMovie) =>{
+      fetch(`http://localhost:3000/movie/${updatedMovie.id}`,{
+        method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(updatedMovie),
+      })
+      .then((response) => response.json())
+      .then((data) => {
+        const updatedMovies = movies.map((movie) =>
+          movie.id === data.id ? data : movie
+        );
+        setMovies(updatedMovies);
+      })
+      .catch((error) => console.log(error));
+    }
+ 
+  
   const indexOfLastMovie = currentPage * moviesPerPage;
   const indexOfFirstMovie = indexOfLastMovie - moviesPerPage;
   const currentMovies = movies.slice(indexOfFirstMovie, indexOfLastMovie);
@@ -33,7 +50,7 @@ function Movies() {
   return (
     <div className='Movies'>
     {currentMovies.map((movie)=>(
-      <MovieItem key={movie.id} movie={movie} onDeleteMovie={handleDeleteMovie}/>
+      <MovieItem key={movie.id} movie={movie} onDeleteMovie={handleDeleteMovie} onUpdate={handleUpdate}/>
     ))}
     <div className="Pagination">
         <button

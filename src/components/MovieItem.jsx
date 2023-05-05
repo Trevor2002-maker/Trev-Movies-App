@@ -1,9 +1,19 @@
-import React  from 'react';
+import React, {useState}  from 'react';
 import "./App.css";
 import RatingStars from './RatingStars';
 
-function MovieItem({ movie, onDeleteMovie }) {
+function MovieItem({ movie, onDeleteMovie, onUpdate }) {
+  const [title, setTitle] = useState(movie.title);
+  const [genre, setGenre] = useState(movie.genre);
 
+  const handleUpdateClick = () => {
+    const updatedMovie = {
+      id: movie.id,
+      title,
+      genre,
+    };
+    onUpdate(updatedMovie);
+  };
   return (
     <div className="MovieItem">
       <div className="movie-img">
@@ -21,6 +31,11 @@ function MovieItem({ movie, onDeleteMovie }) {
         <p>Duration: {movie.duration}</p>
         <p>Description: {movie.description}</p>
         <button onClick={()=> onDeleteMovie(movie.id)}>Delete</button>
+      </div>
+      <div>
+      <input value={title} onChange={(e) => setTitle(e.target.value)} />
+      <input value={genre} onChange={(e) => setGenre(e.target.value)} />
+      <button onClick={handleUpdateClick}>Update</button>
       </div>
     </div>
     
